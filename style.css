@@ -1,0 +1,268 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+header {
+	background-color:#F8F0E3;
+    max-width: 100%;
+}
+
+
+.clear{
+	clear:both;
+}
+
+.logo { 
+    max-width: 132px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+nav {
+    width: 60%;
+    margin: auto; 
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+nav ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+nav li {
+    display: inline;
+    float: left;
+    width: 100px;
+}
+
+
+nav a:link , nav a:visited {
+    font-size: 12.3px;
+    height: 30px;
+    line-height: 200%;
+    display: block;
+    font-weight: bold;
+	color:black;
+    text-align: center;
+    text-transform: uppercase;	
+    width: auto;
+	text-decoration:none;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+} 
+main p:first-child {
+    clear: both;
+}
+
+article p{
+	color:grey;
+	font-size:12px;
+    word-break: break-all;
+}
+
+.naslov {
+    clear: both;
+    max-width: 400px;
+    margin-top: 20px;
+	margin-bottom:20px;
+}
+.naslov h2 {
+    text-transform: uppercase;
+}
+
+
+
+
+article img {
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+article a:hover {
+    color: #1ea0e6;
+}
+.sadrzaj p {
+    padding-bottom: 20px;
+}
+.slika img {
+    margin-top: 15px;
+	max-width:500px;
+}
+
+.wrapper .item {
+    clear: both;
+    width:100%;
+    float: left;
+}
+.odjava {
+    width: 50%;
+    clear: both;
+    float: left;
+}
+.odjava a {
+    text-decoration: none;
+    background-color: #1ea0e6;
+    color: white;
+    padding:5px;
+    margin-top: 30px;
+}
+.odjava a:hover {
+    background-color: #8a8a8a;
+    color: black;
+}
+.odjava p {
+    padding-bottom: 10px;
+}
+.prijavaForma {
+    width: 100%;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.prijavaForma button, .form-item button {
+    background-color: #1ea0e6;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.prijavaForma button:hover, .form-item button:hover {
+    background-color: #8a8a8a;
+    color: black;
+}
+button#stil.link a {
+    padding: 10px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+}
+button#stil.link a:hover {
+    color: black;
+}
+button#slanje {
+    padding: 5px;
+}
+button {
+    padding: 5px;
+}
+.form-field img {
+    max-width: 50%;
+}
+
+#about{
+    height:80px;
+}
+
+.drugi-red {
+    clear: both;
+    max-width: 100%;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.category {
+    clear: both;
+    text-decoration: underline;
+    text-decoration-color: #8a8a8a;
+    padding-bottom: 10px;
+}
+
+.category:first-letter {
+    text-transform: uppercase;
+}
+.title {
+    padding-bottom: 10px;
+   
+}
+.autor , .objavljeno {
+    font-size: 12px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content {
+    padding-bottom: 10px;
+}
+.bojaPoruke {
+    color: red;
+}
+
+.form-item {
+    margin-top: 5px;
+}
+.form-item button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+form{
+    margin:0 auto;
+    width: 100%;
+}
+
+form textarea{
+    width: 100%;
+}
+
+
+.novi-red {
+    width: 100%;
+    clear: both;
+    float: left;
+}
+h4 {
+    margin: 5px 5px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+footer {
+    width: 100%; 
+    background-color: #F8F0E3;
+    height: 30px;
+    text-align: center;
+	position:fixed;
+	bottom:0px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 950px) {
+    nav li {
+        width: 100%;
+    }
+}
